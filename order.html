@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="order.css">
+    <title>Cake</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="logo1.png" alt="" width="60" height="60" class="d-inline-block align-text-top">
+            <p class="cake ">Cake</p>
+          </a>
+          <a href="#" class="btn border-2 rounded-pill">Order Now</a>
+        </div>
+      </nav>
+
+      <!-- Form -->
+
+      <div class="can">
+        <div class="login-page">
+            <div class="form">
+              <form class="login-form" name="myForm">
+                  <h5>ORDER NOW</h5>
+                <input class="input" type="text" placeholder="Enter Your Name" name="name" id="name" required/>
+                <span id="nameerror"> </span>
+                <input class="input" type="phone" maxlength="10" placeholder="Enter Your Mobile No" name="phone" id="phone" required/>
+                <span id="phoneerror"> </span>
+                <input class="input" type="textarea" placeholder="Enter Your Address" name="address" id="address" required/>
+                <input class="input" type="email" placeholder="Enter Your Email" name="email" id="email" required/>
+                <span id="emailerror"> </span>
+                <!-- <input type="text" placeholder="Which cake do you want to order?"/> -->
+                <select class="form-select input" id="list" aria-label="Default select example" required>
+                  <option selected>Which cake do you want to order?</option>
+                  <option value="1">Black Forest Cake</option>
+                  <option value="2">Pineapple Cake</option>
+                  <option value="3">Ice Cream Cake</option>
+                  <option value="4">Strawberry Cake</option>
+                  <option value="5">Red Velvet Cake</option>
+                  <option value="6">Coconut Cake</option>
+                  <option value="7">Butterscotch Cake</option>
+                  <option value="8">Oreo Cake</option>
+                  <option value="9">Coffee Cake</option>
+                </select>
+                <span id="listerror"> </span>
+                <input class="but" type="submit"  value="Submit">
+                
+                
+              </form>
+            </div>
+          </div>
+      </div>
+
+    <!-- Footer -->
+<footer class="page-footer font-small blue">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+
+  <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
